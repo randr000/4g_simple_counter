@@ -8,7 +8,7 @@ const FACard = ({innerValue}) => {
 
     return (
         <div className="col col-2" style={styles}>
-            <div className="card text-white bg-dark border border-secondary border-3">
+            <div className="card text-white bg-dark border border-secondary border-3 position-absolute">
                 <div className="card-body text-center">{innerValue}</div>
             </div>
         </div>
