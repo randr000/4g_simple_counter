@@ -13,17 +13,17 @@ import { faClock } from "@fortawesome/free-regular-svg-icons";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+const Home = ({a, b, c, d, e, f}) => {
 	return (
 		<div className="container-fluid ">
 			<div className="row d-flex justify-content-center mt-5 p-5">
 				<FACard innerValue={<FontAwesomeIcon icon={faClock} />} style={{width: "200px !important"}}/>
-				<NumCard innerValue="0"/>
-				<NumCard innerValue="0"/>
-				<NumCard innerValue="0"/>
-				<NumCard innerValue="0"/>
-				<NumCard innerValue="0"/>
-				<NumCard innerValue="0"/>
+				<NumCard innerValue={f}/>
+				<NumCard innerValue={e}/>
+				<NumCard innerValue={d}/>
+				<NumCard innerValue={c}/>
+				<NumCard innerValue={b}/>
+				<NumCard innerValue={a}/>
 			</div>
 		</div>
 	);
